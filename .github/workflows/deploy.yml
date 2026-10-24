@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     concurrency:
-      group: deploy-crabtris-navydev-top
+      group: deploy-navydev-top-crabtris
       cancel-in-progress: true
     permissions:
       contents: read

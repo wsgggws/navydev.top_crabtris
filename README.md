@@ -1,4 +1,4 @@
-# Crabtris
+# navydev.top_crabtris
 
 俄罗斯方蟹 = Crab（蟹）+ Tetris（俄罗斯方块）
 
