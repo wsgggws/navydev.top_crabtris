@@ -33,7 +33,7 @@ jobs:
           host: ${{ secrets.REMOTE_IP }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "index.html,crabtris.css,crabtris.js,crabtris.png,README.md"
+          source: "index.html,crabtris.css,crabtris.js,crabtris.png,favicon.png,README.md"
           target: "/var/www/crabtris.navydev.top/"
           strip_components: 0
           overwrite: true
